@@ -1,0 +1,212 @@
+html { 
+    overflow:auto;  
+}
+body {  
+    width: 100%;
+    margin: 0;
+    padding: 0;  
+    color: #000;
+    background-repeat: no-repeat;  
+}
+
+strong {
+    color: #60B61A;
+} 
+ 
+/**
+Cycles table style 
+*/
+.inputNumberForCalculation {
+  margin-top: 10px;  
+}
+.cycle-tables {
+    margin-left:auto;
+    margin-right:auto;  
+    padding:0px;
+    /*width:100%;*/ 
+    box-shadow: 2px 2px 1px #888888;
+    border:1px solid #000000; 
+}
+.cycle-tables table{
+    width:100%; 
+}   
+.cycle-tables th {
+    background-color:  #6FAEE4;/*#6FAEEF;  #58A6A4; */
+}
+.cycle-tables td{
+    vertical-align:middle; 
+    background-color: #e5e5f5;
+    border:1px ridge #000000;
+    border-width:0px 1px 1px 0px;
+    text-align:left;
+    padding:5px;
+    /*font-size:10px;*/
+    font-family:Arial;
+    font-weight:normal;
+    color:#000000;
+}  
+.cycle-tables tr:first-child td{ 
+    background-color: #fff; /* #cccccc; */
+    border:0px solid #000000;
+    text-align:center;
+    border-width:0px 0px 1px 1px;
+    font-size:14px;
+    font-family:Arial;
+    font-weight:bold;
+    color:#000000;
+}  
+h3 {
+    font-size: 1.6em;
+}
+.tableCell { 
+    width: 30px;
+} 
+#tabs {
+    border : 0px; 
+}  
+
+#forgot-info {  
+    
+    color: #000000;
+}
+ 
+label.error { 
+    color: red;
+} 
+
+input { 
+    background: #ffffff;   
+} 
+/*
+Fancy table for cycles main page
+*/
+
+#weight-calc {
+    
+    font-family:Tahoma, Geneva, sans-serif;
+    width:100%;
+    border-collapse:collapse;
+}
+#weight-calc td, #weight-calc th {
+    font-size:1em;
+    border:1px solid #000;
+    padding:3px 7px 2px 7px;
+}
+#weight-calc th {
+    font-size:1.1em;
+    text-align:left;
+    padding-top:5px;
+    padding-bottom:4px;
+    background-color:#6FAEEF;
+    color:#ffffff;
+}
+#weight-calc tr.alt td {
+    color:#000000;
+    background-color:#E6E6FA;
+} 
+
+#weight-calc a:visited {
+    color : #000;
+    text-decoration: none;
+}
+
+#weight-calc a {
+    color : #000;
+    text-decoration: none;
+    
+}
+
+#weight-calc a:hover {
+    color : #A97E3D;
+    /*font-size:1.1em; */
+    text-decoration: none;
+} 
+
+#top-menu {   
+    list-style-type: none; 
+    height: 42px;   
+    background-color: #304F30; 
+    margin:0;
+    padding: 0; 
+    top:0;
+    left:0;  
+}
+
+.top-menu-li {
+    float: left; 
+    padding:0;
+}
+ 
+.main-links {
+    font-family: Tahoma, Geneva, sans-serif; 
+    text-decoration: none;
+    color: #6aa613;
+    font-size: 16px;  
+}
+.main-links-inactive {
+    font-family: Tahoma, Geneva, sans-serif; 
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;  
+}
+/**
+    Layout plug-in CSS 
+*/
+.ui-layout-north a:hover { 
+    /*font-size: 16px;  */
+    color: #3A5995;
+    text-decoration: underline; 
+}  
+
+.main-links a:visited {
+    text-decoration: none;
+} 
+ #top-menu a:hover { 
+    background-color: #6aa613;
+    
+} 
+.ui-layout-north {
+    background-color:#DDDDDD;
+    overflow: hidden !important; /* AZ */  
+}
+
+.input_length {
+    width : 40px;
+}
+.ui-layout-pane-north {
+    background-color: red;
+    overflow: hidden !important;  /* AZ */
+
+}
+/* END of layout css */
+#pageLinks {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+} 
+#stepCalculator {
+    display:none;  
+}
+
+.italic{ 
+    font-style: italic;
+    color: #cacaca;
+}
+
+
+.clickedLink {
+    /*font-size: 16px;   */
+    text-decoration: underline; 
+    color: #000000; 
+}
+.usernameField {
+    width: 125px;
+}
+
+.realResult {
+    width:  50px;
+}
+
+#information {
+    color: red;
+}
